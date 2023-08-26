@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: blueviolet;
+}
+#container{
+    color:white;
+    width:350px;
+    height:600px;
+    border:1px solid black;
+    margin:20px auto;
+    background-color:rgb(89, 76, 171);
+    font-family: 'Courier New', Courier, monospace;
+}
+#bill1,#tip2,#people,#perperson{
+    margin:40px 80px;
+}
+#people{
+    margin:15px 80px;
+}
+input{
+    height:20px;
+    border-radius: 12px;
+    border:1.2px solid white;
+    background-color :aliceblue;
+    margin-top:3px;
+}
+button{
+    width:23px;
+    height:23px;
+    border-radius: 50%;
+    margin:7px;
+    border:1.5px solid white;
+}
+#num{
+    margin-left:9px;
+}
+button#reset{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+button#reset #circle{
+   width:10px;
+   height:10px;
+   border-radius: 50%;
+   background-color:  red;
+   margin: auto auto;
+   color:red;
+}
